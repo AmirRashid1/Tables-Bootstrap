@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<style>
+    .rows{
+        background-color: aqua;
+        border: 3px solid rgb(94, 23, 237);
+        width: 100%;
+        height: 10rem;
+        color: white;
+        border-radius: 0.7rem;
+    }
+    .fluid{
+        background-color: rgb(145, 119, 119);
+        width: 100%;
+        height: 30rem;
+    }
+    .form1{
+        margin: 0.7rem;
+    }
+</style>
+
+</head>
+<body>
+    <script src="../index.js"></script>
+<div class="container-fluid fluid">
+    <form action="/" class="form1">
+        <input type="email" name="email" id="email" placeholder="Enter your username/email" required>
+        <input type="password" name="password" id="password" placeholder="Enter your password!" required>
+        <button type="submit">SUBMIT</button>
+    </form>
+    <!-- <div class="row rows">
+        <div class="col-md-4 col-lg-1 text-center bg-primary">col-1</div>
+        <div class="col-md-6 col-lg-1 text-center bg-secondary">col-2</div>
+        <div class="col-md-7 col-lg-1 text-center bg-success">col-3</div>
+    </div> -->
+</div>
+</body>
+</html>
